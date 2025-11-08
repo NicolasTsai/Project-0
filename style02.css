@@ -39,7 +39,7 @@ li:hover{
 }
 
 img{
-    border: gray solid 5px;
+    border: gray solid 8px;
     width: 285px;
     height: 90px;
     object-fit: cover; /* 填滿容器，多餘部分裁切 */
