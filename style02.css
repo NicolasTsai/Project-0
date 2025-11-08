@@ -1,0 +1,52 @@
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+}
+
+h2{
+    border-left: red solid 4px;
+    border-bottom: red solid 4px;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-indent: 40px;
+}
+
+li{
+    line-height: 2;
+    font-weight: normal;
+    color:black;
+}
+
+li:hover{
+    font-weight:bolder;
+    color:dimgrey;
+}
+
+#strikethrough{
+    text-decoration: line-through;
+}
+
+img{
+    border: gray solid 5px;
+    width: 285px;
+    height: 90px;
+    object-fit: cover; /* 填滿容器，多餘部分裁切 */
+    object-position: center; /* 圖片置中顯示 */
+    overflow: hidden; /* 隱藏被裁切的部分 */     
+}
+
+img:hover{
+    border: pink solid 8px;
+}
